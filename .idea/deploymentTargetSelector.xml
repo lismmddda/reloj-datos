@@ -4,7 +4,7 @@
     <selectionStates>
       <SelectionState runConfigName="app">
         <option name="selectionMode" value="DROPDOWN" />
-        <DropdownSelection timestamp="2025-10-31T18:53:25.673825100Z">
+        <DropdownSelection timestamp="2025-11-01T03:33:46.181079600Z">
           <Target type="DEFAULT_BOOT">
             <handle>
               <DeviceId pluginId="PhysicalDevice" identifier="serial=R58X80C0NQM" />
@@ -15,7 +15,7 @@
       </SelectionState>
       <SelectionState runConfigName="telefono">
         <option name="selectionMode" value="DROPDOWN" />
-        <DropdownSelection timestamp="2025-10-31T23:21:45.661244300Z">
+        <DropdownSelection timestamp="2025-11-01T03:33:56.783621700Z">
           <Target type="DEFAULT_BOOT">
             <handle>
               <DeviceId pluginId="PhysicalDevice" identifier="serial=R58X80C0NQM" />

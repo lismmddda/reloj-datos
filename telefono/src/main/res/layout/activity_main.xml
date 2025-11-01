@@ -1,33 +1,36 @@
-<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
-    android:padding="16dp"
     android:gravity="center"
+    android:padding="16dp"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <Button
         android:id="@+id/boton"
-        android:text="Conectar con reloj"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:text="Conectar con reloj" />
 
     <TextView
         android:id="@+id/textinfo"
-        android:text="Esperando conexión..."
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingTop="20dp"
-        android:textSize="16sp"
-        android:textAlignment="center" />
+        android:text="Estado de conexión"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/textDetalles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="14sp"
+        android:layout_marginTop="8dp"
+        android:textColor="@android:color/darker_gray" />
 
     <TextView
         android:id="@+id/textDatos"
-        android:text="📡 Sin datos aún..."
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingTop="10dp"
-        android:textSize="15sp"
-        android:textAlignment="center" />
-
+        android:text="Datos del reloj"
+        android:layout_marginTop="24dp" />
 </LinearLayout>
